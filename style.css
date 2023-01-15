@@ -285,8 +285,7 @@ li>a {
 }
 
 .top-section-4 {
-    width: 860px;
-    margin: 0 auto;
+    width: 100%;
     text-align: center;
 }
 
@@ -468,9 +467,24 @@ li>a {
         margin: 15px 0;
     }
 
+      /*------------ section-4 responsive style */
+      .section-4{
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+      }
 
+    .img-section-4{
+        height: 400px;
+        flex-direction: column;
+        align-items: center;
+    }
 
+    .img-section-5{
+     grid-template-columns:repeat(1, 1fr);
+     justify-items: center;
 
+    }
 
 
 }
