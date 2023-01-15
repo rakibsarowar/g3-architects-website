@@ -234,9 +234,6 @@ li>a {
 /* ------------------- Section-3 Style Start -------------------*/
 
 .other-information-container {
-    /* display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    justify-content: space-around; */
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
@@ -254,25 +251,25 @@ li>a {
 
 /*-------------- Transition Effect -------------*/
 
-.icon-1:hover {
+.box:hover .icon-1 {
     border: 5px solid white;
     box-shadow: 0 0 20px #FF900E;
     transition: all 0.5s ease;
 }
 
-.icon-2:hover {
+.box:hover .icon-2{
     border: 5px solid white;
     box-shadow: 0 0 20px #3d8ef8;
     transition: all 0.5s ease;
 }
 
-.icon-3:hover {
+.box:hover .icon-3{
     border: 5px solid white;
     box-shadow: 0 0 20px #da1515;
     transition: all 0.5s ease;
 }
 
-.icon-4:hover {
+.box:hover .icon-4{
     border: 5px solid white;
     box-shadow: 0 0 20px #FF900E;
     transition: all 0.5s ease;
