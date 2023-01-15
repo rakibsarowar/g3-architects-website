@@ -339,3 +339,34 @@ li>a {
 /* -------------------------
         Footer style End
   -------------------------*/
+
+  /* ------------------- Responsive Style Start -------------------*/
+  @media screen and (max-width: 576px){
+    .logo{
+        font-size: 30px;
+    }
+    .container{
+        flex-direction: column;
+        height: 200px;
+        padding-top: 20px;
+    }
+    nav>ul{
+        flex-direction: column;
+        padding-top: 30px;
+        gap: 5px;
+    }
+
+    li>a{
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+
+
+  }
+    
+
+  .hide{
+    display: none;
+  }
+
