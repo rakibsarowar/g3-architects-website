@@ -227,6 +227,23 @@ li>a {
     margin-top: 50px;
     filter: grayscale(100%);
 }
+/*-------------- Section 05 Start */
+
+.section-5 {
+    margin-top: 180px;
+}
+
+.img-section-5{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.img-section-5 img{
+    width: 335px;
+    height: 220px;
+}
 
 .footer {
     width: 100%;
