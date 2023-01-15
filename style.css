@@ -2,6 +2,8 @@
     Utility
     ----------------------- */
 
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Poppins:wght@500&family=Source+Sans+Pro:wght@400;700&family=Work+Sans:wght@400;700&display=swap');
+
 :root {
     --dark01: #131313;
     --dark02: #727272;
