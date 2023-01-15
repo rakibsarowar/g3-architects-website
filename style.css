@@ -1,3 +1,7 @@
+/* ---------------------------
+    Utility
+    ----------------------- */
+
 :root {
     --dark01: #131313;
     --dark02: #727272;
@@ -38,6 +42,7 @@ h2 {
     font-size: 45px;
     line-height: 53px;
 }
+
 
 /* -------------------------
   Header section Start 
@@ -107,6 +112,7 @@ li>a {
 /* -------------------------
   Header section End 
   -------------------------*/
+
 .section-1 {
     display: flex;
     margin-top: 85px;
@@ -128,9 +134,12 @@ li>a {
     margin-left: 30px;
 }
 
-/* -------------------------
-  section -1 End 
+/* ------------------- section -1 End -------------------*/
+
+  /* -------------------------
+  section -2 styling start 
   -------------------------*/
+
 .section-2 {
     display: flex;
     gap: 100px;
@@ -184,6 +193,7 @@ li>a {
     padding-top: 50px;
     margin-top: 100px;
 }
+
 /*-------------- transition effect -------------*/
 
 .icon-1:hover {
@@ -207,13 +217,14 @@ li>a {
     transition: all 0.5s ease;
 }
 
-/*-------------- Section 03 End */
+/*------------------- Section 03 End------------ */
 
-/*-------------- Section 04 Start */
+  /* -------------------------
+  section -4 styling start 
+  -------------------------*/
 .section-4 {
     margin-top: 180px;
 }
-
 
 .top-section-4 {
     width: 860px;
@@ -227,7 +238,12 @@ li>a {
     margin-top: 50px;
     filter: grayscale(100%);
 }
-/*-------------- Section 05 Start */
+
+/*------------------- Section 04 End------------ */
+
+  /* -------------------------
+  section -5 styling start 
+  -------------------------*/
 
 .section-5 {
     margin-top: 180px;
@@ -244,6 +260,12 @@ li>a {
     width: 335px;
     height: 220px;
 }
+
+/*------------------- Section 05 End------------ */
+
+/* -------------------------
+  Footer styling start 
+  -------------------------*/
 
 .footer {
     width: 100%;
