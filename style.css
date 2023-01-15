@@ -207,8 +207,6 @@ li>a {
     transition: all 0.5s ease;
 }
 
-
-
 /*-------------- Section 03 End */
 
 /*-------------- Section 04 Start */
@@ -227,6 +225,7 @@ li>a {
     display: flex;
     justify-content: space-around;
     margin-top: 50px;
+    filter: grayscale(100%);
 }
 
 .footer {
