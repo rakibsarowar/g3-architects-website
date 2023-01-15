@@ -107,8 +107,6 @@ li>a {
 
 }
 
-/* ------------------- Header Style Start -------------------*/
-
 .header-section-title {
     font-size: 65px;
     font-weight: 700;
@@ -131,7 +129,7 @@ li>a {
     Header section End 
   -------------------------*/
 
-/* ------------------- Section-1 Styling Start -------------------*/
+/* ------------------- Section-1 Style Start -------------------*/
 
 .section-1 {
     display: flex;
@@ -154,7 +152,7 @@ li>a {
 }
 
 /* -------------------------
-        Section-1 End 
+        Section-1 style End 
   -------------------------*/
 
 /* ------------------- Section -2 Style Start -------------------*/
@@ -224,10 +222,11 @@ li>a {
 }
 
 /* -------------------------
-        Section-2 End 
+        Section-2 style End 
   -------------------------*/
 
 /* ------------------- Section -3 Style Start -------------------*/
+
 .other-information-container {
     /* display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -247,7 +246,7 @@ li>a {
     margin-top: 70px;
 }
 
-/*-------------- transition effect -------------*/
+/*-------------- Transition Effect -------------*/
 
 .icon-1:hover {
     border: 5px solid white;
@@ -275,10 +274,10 @@ li>a {
 
 
 /* -------------------------
-        Section-3 End 
+        Section-3 Style End 
   -------------------------*/
 
-/* ------------------- Section -4 Style Start -------------------*/
+/* ------------------- Section-4 Style Start -------------------*/
 
 .section-4 {
     margin-top: 180px;
@@ -297,10 +296,10 @@ li>a {
 }
 
 /* -------------------------
-        Section-4 End 
+        Section-4 Style End 
   -------------------------*/
 
-/* ------------------- Section -5 Style Start -------------------*/
+/* ------------------- Section-5 Style Start -------------------*/
 
 .section-5 {
     margin-top: 180px;
@@ -319,7 +318,7 @@ li>a {
 }
 
 /* -------------------------
-        Section-5 End 
+        Section-5 Style End 
   -------------------------*/
 
 /* ------------------- Footer style start  -------------------*/
@@ -397,7 +396,8 @@ li>a {
         padding: 15px 15px;
     }
 
-    /*------------ section-1 responsive style */
+    /*------------ section-1 responsive style----------------- */
+
     .section-1, .section-2 {
         flex-direction: column;
         margin: 20px auto;
@@ -424,7 +424,8 @@ li>a {
         padding: 20px;
     }
 
-      /*------------ section-2 responsive style */
+      /*------------ section-2 responsive style ----------------- */
+
     .section-title-container, .section-2-text{
         padding:0 20px;
     }
@@ -458,7 +459,8 @@ li>a {
         padding: 0 15px;
     }
 
-    /*------------ section-3 responsive style */
+    /*------------ section-3 responsive style----------------- */
+
     .other-information-container{
         flex-direction: column;
         align-items: center;
@@ -467,24 +469,29 @@ li>a {
         margin: 15px 0;
     }
 
-      /*------------ section-4 responsive style */
-      .section-4, .section-5{
+    /*------------ section-4 responsive style ----------------- */
+
+    .section-4, .section-5{
         width: 100%;
         text-align: center;
         margin-top: 30px;
-      }
+    }
 
     .img-section-4{
         height: 400px;
         flex-direction: column;
         align-items: center;
     }
-      /*------------ section-5 responsive style */
+
+    /*------------ section-5 responsive style----------------- */
 
     .img-section-5{
      grid-template-columns:repeat(1, 1fr);
      justify-items: center;
     }
+
+    /*------------ Footer Area responsive style----------------- */
+
     .footer{
         width: 100%;
         max-width: 1450px;
@@ -499,6 +506,5 @@ li>a {
         font-weight: 600;
         line-height: 20px;
         padding: 50px;
-
     }
 }
