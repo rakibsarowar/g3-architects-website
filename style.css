@@ -275,6 +275,34 @@ li>a {
     transition: all 0.5s ease;
 }
 
+.section-info{
+    font-size: 20px;
+    font-weight: 700;
+    /* padding-top: 2px; */
+    color: var(--dark03);
+    margin: 0 -5px; 
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.box:hover .text-1{
+    color: #fff;
+    box-shadow: inset 280px 0 0 0 tomato;
+}
+
+.box:hover .text-2{
+    color: #fff;
+    box-shadow: inset 280px 0 0 0 #1f71dc;
+}
+
+.box:hover .text-3{
+    color: #fff;
+    box-shadow: inset 280px 0 0 0 #e63636;
+}
+
+.box:hover .text-4{
+    color: #fff;
+    box-shadow: inset 280px 0 0 0 #FF900E;
+}
 
 /* -------------------------
         Section-3 Style End 
