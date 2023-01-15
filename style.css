@@ -16,7 +16,7 @@ body {
 }
 
 .logo {
-    font-size: 2.1vw; 
+    font-size: 2.1vw;
     font-weight: 700;
     color: var(--dark01);
 }
@@ -110,7 +110,7 @@ li>a {
 .section-1 {
     display: flex;
     margin-top: 85px;
-    
+
 }
 
 .image-section {
@@ -131,27 +131,31 @@ li>a {
 /* -------------------------
   section -1 End 
   -------------------------*/
-  .section-2 {
+.section-2 {
     display: flex;
     gap: 100px;
     margin-top: 130px;
 }
-.section-title-container{
+
+.section-title-container {
     border-left: 5px solid;
     border-color: var(--orange);
     padding-left: 20px;
 }
-.sub-info{
+
+.sub-info {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     padding: 30px 40px;
     border-radius: 8px;
     width: 580px;
-    height: 170px; 
+    height: 170px;
 }
-.section-text-1{
+
+.section-text-1 {
     margin: 30px 30px;
 }
-.experience-info{
+
+.experience-info {
     width: 340px;
     height: 200px;
     background-color: var(--orange);
@@ -164,14 +168,14 @@ li>a {
     border-radius: 8px;
 }
 
-.other-information{
+.other-information {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-content: space-around;
-    
+
 }
 
-.box{
+.box {
     width: 240px;
     height: 240px;
     border: 2px solid var(--orange);
@@ -180,27 +184,52 @@ li>a {
     padding-top: 50px;
     margin-top: 100px;
 }
+/*-------------- transition effect -------------*/
 
- /*-------------- Section 03 End */
+.icon-1:hover {
+    border: 5px solid white;
+    box-shadow: 0 0 20px #FF900E;
+    transition: all 0.5s ease;
+}
+.icon-2:hover {
+    border: 5px solid white;
+    box-shadow: 0 0 20px #3d8ef8;
+    transition: all 0.5s ease;
+}
+.icon-3:hover {
+    border: 5px solid white;
+    box-shadow: 0 0 20px #da1515;
+    transition: all 0.5s ease;
+}
+.icon-4:hover{
+    border: 5px solid white;
+    box-shadow: 0 0 20px #FF900E;
+    transition: all 0.5s ease;
+}
+
+
+
+/*-------------- Section 03 End */
 
 /*-------------- Section 04 Start */
-.section-4{
+.section-4 {
     margin-top: 180px;
 }
 
 
-.top-section-4{
+.top-section-4 {
     width: 860px;
     margin: 0 auto;
-    text-align: center; 
+    text-align: center;
 }
-.img-section-4{
+
+.img-section-4 {
     display: flex;
     justify-content: space-around;
     margin-top: 50px;
 }
 
-.footer{
+.footer {
     width: 100%;
     max-width: 1450px;
     height: 100px;
