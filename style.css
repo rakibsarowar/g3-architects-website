@@ -179,16 +179,18 @@ li>a {
 
 .sub-info {
     width: 585px;
-    height: 170px;
+    height: 190px;
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
-    padding: 30px 40px;
+    padding: 30px 60px 30px 40px;
     border-radius: 8px;
-    width: 580px;
-    height: 170px;
     margin-bottom: 20px;
 
 }
+.text-container{
+    width: 515px;
+    height: 110px;
 
+}
 .sub-section-title {
     font-size: 20px;
     font-weight: 600;
@@ -201,6 +203,8 @@ li>a {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
+    text-overflow: ellipsis;
+    overflow: hidden;
     color: var(--dark02);
 }
 
@@ -225,7 +229,7 @@ li>a {
         Section-2 style End 
   -------------------------*/
 
-/* ------------------- Section -3 Style Start -------------------*/
+/* ------------------- Section-3 Style Start -------------------*/
 
 .other-information-container {
     /* display: grid;
@@ -339,6 +343,7 @@ li>a {
   -------------------------*/
 
 /* ------------------- Responsive Style Start -------------------*/
+
 @media screen and (max-width: 576px) {
 
     /*------------ header area responsive style */
@@ -437,7 +442,7 @@ li>a {
         padding: 30px 20px;
 
     }
-    .sub-section-text{
+    .sub-section-text, .section-text{
         font-size: 14px;
         padding: 10px 10px;
     }
