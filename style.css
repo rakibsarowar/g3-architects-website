@@ -191,7 +191,6 @@ li>a {
 
 }
 
-
 .sub-section-title {
     font-size: 20px;
     font-weight: 600;
@@ -206,7 +205,6 @@ li>a {
     line-height: 26px;
     color: var(--dark02);
 }
-
 
 .section-text-1 {
     margin: 30px 30px;
@@ -225,11 +223,18 @@ li>a {
     border-radius: 8px;
 }
 
-.other-information {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    justify-content: space-around;
+/* -------------------------
+        Section-2 End 
+  -------------------------*/
 
+/* ------------------- Section -3 Style Start -------------------*/
+.other-information-container {
+    /* display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-around; */
+    display: flex;
+    justify-content:space-around;
+    align-items: flex-start;
 }
 
 .box {
@@ -239,7 +244,7 @@ li>a {
     border-radius: 8px;
     text-align: center;
     padding-top: 50px;
-    margin-top: 100px;
+    margin-top: 70px;
 }
 
 /*-------------- transition effect -------------*/
@@ -268,11 +273,13 @@ li>a {
     transition: all 0.5s ease;
 }
 
-/*------------------- Section 03 End------------ */
 
 /* -------------------------
-  section -4 styling start 
+        Section-3 End 
   -------------------------*/
+
+/* ------------------- Section -4 Style Start -------------------*/
+
 .section-4 {
     margin-top: 180px;
 }
@@ -290,11 +297,11 @@ li>a {
     filter: grayscale(100%);
 }
 
-/*------------------- Section 04 End------------ */
-
 /* -------------------------
-  section -5 styling start 
+        Section-4 End 
   -------------------------*/
+
+/* ------------------- Section -5 Style Start -------------------*/
 
 .section-5 {
     margin-top: 180px;
@@ -312,11 +319,11 @@ li>a {
     height: 220px;
 }
 
-/*------------------- Section 05 End------------ */
-
 /* -------------------------
-  Footer styling start 
+        Section-5 End 
   -------------------------*/
+
+/* ------------------- Footer style start  -------------------*/
 
 .footer {
     width: 100%;
@@ -325,5 +332,10 @@ li>a {
     background-color: var(--cream);
     margin: 130px auto;
     text-align: center;
-    padding: 40px 400px;
+    padding-top: 15px;
+    /* padding: 40px 400px; */
 }
+
+/* -------------------------
+        Footer style End
+  -------------------------*/
