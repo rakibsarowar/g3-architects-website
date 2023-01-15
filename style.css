@@ -5,6 +5,7 @@
 :root {
     --dark01: #131313;
     --dark02: #727272;
+    --dark03: #424242;
     --orange: #FF900E;
     --cream: rgba(255, 144, 14, 0.1);
 }
@@ -20,7 +21,7 @@ body {
 }
 
 .logo {
-    font-size: 2.1vw;
+    font-size: 45px;
     font-weight: 700;
     color: var(--dark01);
 }
@@ -43,15 +44,26 @@ h2 {
     line-height: 53px;
 }
 
+.btn-primary {
+    width: 180px;
+    height: 65px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    background-color: var(--orange);
+    color: white;
+    border-radius: 8px;
+    padding: 20px 25px;
+}
 
-/* -------------------------
-  Header section Start 
-  -------------------------*/
+/* ------------------------- Header section Style Start -------------------------*/
+
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 80px;
+    padding: 25px;
 }
 
 nav>ul {
@@ -63,11 +75,13 @@ nav>ul {
 
 li>a {
     text-decoration: none;
-    color: var(--dark02);
+    color: var(--dark03);
+    font-size: 18px;
+    font-weight: 500;
 }
 
 .section {
-    padding: 100px 25px 30px 25px;
+    padding: 100px 25px 50px 25px;
 }
 
 .top-box {
@@ -78,67 +92,72 @@ li>a {
 }
 
 .section-title {
+    font-size: 45px;
     font-weight: 700;
-    font-size: 4.5rem;
-    line-height: 4.5rem;
+    line-height: 50px;
     color: var(--dark01);
 }
 
 .section-text {
-    font-size: 1rem;
+    font-size: 16px;
     font-weight: 400;
     line-height: 26px;
     color: var(--dark02);
+    margin: 25px 0 30px 0;
+
 }
 
-.btn-1 {
-    width: 180px;
-    height: 65px;
-    font-size: 20px;
-    font-weight: 600px;
-    border: none;
-    background-color: var(--orange);
-    color: white;
-    border-radius: 8px;
-    margin-top: 25px;
+/* ------------------- Header Style Start -------------------*/
+
+.header-section-title {
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 75px;
+    color: var(--dark01);
 }
 
-.banner {
-    width: 1440px;
-    height: 700px;
+.banner-image-container {
+    width: 100%;
+    max-width: 1450px;
+    margin: 0 auto;
+}
+
+.banner-image {
+    width: 100%;
     margin-top: 50px;
 }
 
 /* -------------------------
-  Header section End 
+    Header section End 
   -------------------------*/
+
+/* ------------------- Section-1 Styling Start -------------------*/
 
 .section-1 {
     display: flex;
     margin-top: 85px;
-
 }
 
-.image-section {
+.left-image-section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 25px;
-    margin-left: 80px;
+    margin-left: 60px;
 }
 
-.info-section {
+.right-info-section {
     width: 530px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 30px;
+    margin: 0 60px 0 30px;
 }
 
-/* ------------------- section -1 End -------------------*/
-
-  /* -------------------------
-  section -2 styling start 
+/* -------------------------
+        Section-1 End 
   -------------------------*/
+
+/* ------------------- Section -2 Style Start -------------------*/
 
 .section-2 {
     display: flex;
@@ -146,19 +165,48 @@ li>a {
     margin-top: 130px;
 }
 
+.left-side-container{
+    margin-top: 50px;
+}
+
 .section-title-container {
     border-left: 5px solid;
     border-color: var(--orange);
-    padding-left: 20px;
+    padding: 0 150px 0 20px;
+}
+
+.section-2-text {
+    padding-right: 55px;
 }
 
 .sub-info {
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: 585px;
+    height: 170px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
     padding: 30px 40px;
     border-radius: 8px;
     width: 580px;
     height: 170px;
+    margin-bottom: 20px;
+
 }
+
+
+.sub-section-title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    color: var(--dark01);
+    margin-bottom: 10px;
+}
+
+.sub-section-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: var(--dark02);
+}
+
 
 .section-text-1 {
     margin: 30px 30px;
@@ -201,17 +249,20 @@ li>a {
     box-shadow: 0 0 20px #FF900E;
     transition: all 0.5s ease;
 }
+
 .icon-2:hover {
     border: 5px solid white;
     box-shadow: 0 0 20px #3d8ef8;
     transition: all 0.5s ease;
 }
+
 .icon-3:hover {
     border: 5px solid white;
     box-shadow: 0 0 20px #da1515;
     transition: all 0.5s ease;
 }
-.icon-4:hover{
+
+.icon-4:hover {
     border: 5px solid white;
     box-shadow: 0 0 20px #FF900E;
     transition: all 0.5s ease;
@@ -219,7 +270,7 @@ li>a {
 
 /*------------------- Section 03 End------------ */
 
-  /* -------------------------
+/* -------------------------
   section -4 styling start 
   -------------------------*/
 .section-4 {
@@ -241,7 +292,7 @@ li>a {
 
 /*------------------- Section 04 End------------ */
 
-  /* -------------------------
+/* -------------------------
   section -5 styling start 
   -------------------------*/
 
@@ -249,14 +300,14 @@ li>a {
     margin-top: 180px;
 }
 
-.img-section-5{
+.img-section-5 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
     margin-top: 50px;
 }
 
-.img-section-5 img{
+.img-section-5 img {
     width: 335px;
     height: 220px;
 }
